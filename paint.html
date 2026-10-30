@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <header></header>
+            <section class="tools">
+                <ul class="toot-option">
+                    <li id="rectangle"></li>
+                    <li id="triange"></li>
+                    <li id="cirle"></li>
+                   <li id="polygon">
+                    <input type="number" id="sides" min="3" value="5" max="12">
+                    <label for="sides">sides?</label>
+                   </li>
+                </ul>
+                <ul class="fill-box">
+                     <li id="fill">
+                        <input type="checkbox" id="fill-check">
+                        <label for="fill-check">Fill color?</label>
+                    </li>
+                </ul>
+                <ul class="tool-box">
+                    <li id="brush"></li>
+                    <li id="crayon"></li>
+                    <li id="pencil"></li>
+                    <li id="eraser"></li>
+                </ul>
+                <ul id="size">
+                    <input type="range" id="size-range">
+                </ul>
+            </section>
+            <section class="screen"></section>
+            <section class="colors"></section>
+        </div>
+    </div>
+</body>
+</html>
