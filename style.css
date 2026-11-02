@@ -34,6 +34,17 @@ header{
     grid-column: 1 /-1;
     grid-row: 1;
     height: 2rem;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.window-title{
+    background-color: rgb(242, 217, 192);
+    width: 99.2%;
+    margin: auto;
+    display: flex;
+    height: 1.4em;
 }
 
 .tools{
@@ -41,11 +52,55 @@ header{
     height: 28.5em;
   grid-column: 1;
   grid-row: 2;
+  padding: 0.5em;
 }
 
+.tool-option{
+    column-count: 2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.5em;
+    list-style: none;
+    padding: 0.5em;
+    
+}
+
+.tool{
+    width: 2.5em;
+    height: 2.5em;
+    border: 0.1em solid #333;
+    cursor: pointer;
+}
+#rectangle{
+    background-color: aqua;
+  
+}
+
+#triangle{
+    background-color: rgb(178, 220, 220);
+}
+
+#cirle{
+    background-color: rgb(0, 255, 13);
+    
+}
+
+#polygon{
+    background-color: rgb(255, 166, 0);
+    
+}
+
+#hide{
+    display: none;
+}
+#sides{
+    display: none;
+}
 .screen{
     grid-column: 2;
     background-color: rgb(248, 247, 244);
+    border: solid 0.3em #7d421e;
+    border-right: solid 1.7em #7d421e;
 }
 
 .colors{
@@ -58,4 +113,8 @@ header{
 .color-box{
     column-count: 4;
     column-gap: 20px;
+}
+
+.submit-box{
+    float: right;
 }

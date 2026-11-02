@@ -9,13 +9,18 @@
 <body>
     <div class="wrap">
         <div class="container">
-            <header></header>
+            <header>
+                <div class="window-title">
+                    <p style="display: flex; position: relative; top:-1.1em; font-size: 1.3em; left: 1em">paint</p>
+                </div>
+            </header>
             <section class="tools">
-                <ul class="toot-option">
-                    <li id="rectangle"></li>
-                    <li id="triange"></li>
-                    <li id="cirle"></li>
-                   <li id="polygon">
+                <ul class="tool-option">
+                    <li id="rectangle" class="tool"></li>
+                    <li id="triangle" class="tool"></li>
+                    <li id="cirle" class="tool"></li>
+                   <li id="polygon" class="tool">
+                    <input type="checkbox" id="hide">
                     <input type="number" id="sides" min="3" value="5" max="12">
                     <label for="sides">sides?</label>
                    </li>
