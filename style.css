@@ -154,6 +154,11 @@ header{
     border-right: solid 1.7em #7d421e;
 }
 
+.screen canvas{
+    width: 100%;
+    height: 100%;
+}
+
 .colors{
     padding: 0;
     height: 100%;
@@ -164,9 +169,10 @@ header{
 
 .color-box{
     margin: 0%;
-    column-count: 3;
+    margin-right: 4em ;
+    column-count: 4;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 0.5em;
     list-style: none;
     padding: 0.5em;
@@ -201,6 +207,21 @@ header{
 
 .color:nth-child(6){
     background-color: rgb(134, 83, 15);
+}
+
+.color:nth-child(7){
+    background-color: rgb(214, 140, 28) ;
+}
+
+.color:nth-child(8){
+    background: linear-gradient(135deg, #ece3c5 , #FF930F,  #FFF95B);
+}
+
+#color-select{
+    opacity: 0;
+    height: inherit;
+    width: inherit;
+    border: 0em;
 }
 .submit-box{
     padding: 0;

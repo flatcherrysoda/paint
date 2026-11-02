@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Orangey paint</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -41,7 +41,9 @@
                     <input type="range" id="size-range">
                 </ul>
             </section>
-            <section class="screen"></section>
+            <section class="screen">
+                <canvas id="canvas"></canvas>
+            </section>
             <section class="colors">
                 <ul class="color-box">
                     <li class="color"></li>
@@ -50,6 +52,10 @@
                    <li class="color"></li>
                    <li class="color"></li>
                    <li class="color"></li>
+                    <li class="color"></li>
+                   <li class="color">
+                    <input type="color" id="color-select" value="#c36609"
+                   </li>
                 </ul>
                 <div class="submit-box">
                     <button id="submit">submit</button>
@@ -58,5 +64,6 @@
             </section>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
