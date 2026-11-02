@@ -50,7 +50,7 @@ header{
 
 .tools{
     background-color: #e79e71;
-    height: 28.5em;
+    height: 29em;
   
   padding: 0.5em;
 }
@@ -146,6 +146,14 @@ header{
     position: relative;
     accent-color: red;
     width: 8em;
+}
+
+.time{
+    width: 100%;
+    height: 6em;
+    font-size: 5em;
+    padding-left: 0.3em;
+    color: #51290f;
 }
 .screen{
     grid-column: 2;
