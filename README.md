@@ -1,7 +1,7 @@
 # Orangey paint
 !! game is not done!! so there is not much
 
-This is a game where you have a time limit to draw a beautiful piece of art work for Mr.orange and he will grade it. 
+This is a game where you have a time limit to draw a beautiful piece of art work.
 
 not done tho but you can draw 
 <img width="806" height="467" alt="Screenshot 2026-11-01 212555" src="https://github.com/user-attachments/assets/48e15941-8136-46ae-ac9d-d4f2342ce160" />
